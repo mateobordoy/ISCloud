@@ -19,7 +19,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: docker.io
   # github.repository as <account>/<repo>
-  IMAGE_NAME: s{{ secrets.DOCKER_USERNAME }}/s{{ github.repository }}
+  IMAGE_NAME: mateobordoy/ISCloud
 
 
 jobs:
